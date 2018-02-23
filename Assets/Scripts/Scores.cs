@@ -17,17 +17,4 @@ public class Scores : MonoBehaviour {
         Text.text = "Score : " + score;
     }
 
-    public void AddScore(int _score)
-    {
-        score += _score;
-        Debug.Log("Score Bertambah");
-        Text.text = "Score : " + score.ToString();
-    }
-
-    public void MinScore(int _score)
-    {
-        score -= _score;
-        Debug.Log("Score Berkurang");
-        Text.text = "Score : " + score.ToString();
-    }
 }
